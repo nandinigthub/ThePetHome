@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Josefin+Sans:wght@500&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 /* base */
 
 :root{
@@ -6,7 +8,7 @@
 
 *{
     margin: 0px;
-    margin-bottom: 0 !important;
+  
     padding: 0px;
     box-sizing: border-box;
    
@@ -23,6 +25,10 @@ a:hover{
 
 img{
     opacity: 60%;
+}
+
+.main_heading{
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 
@@ -54,6 +60,33 @@ img{
     color: #fff !important;
 }
 
+/* carousel */
+.carousel-inner h5{
+    font-size: 3rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.carousel-inner p{
+    font-size: 1.3rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.carousel-inner a{
+    color: black;
+}
+.carousel-inner a:hover{
+    background: none;
+}
+
+
+/* stats */
+#stats{
+    background-color:var(--primary-color);
+}
+#stats .bi{
+    font-size: 2rem;
+    padding: 10px;
+  
+}
 
 /* cards */
 .height-100 {
@@ -120,4 +153,20 @@ img{
 
 .content {
     padding: 10px
+}
+
+
+/* footer */
+#footer{
+    background-color: var(--primary-color);
+}
+#footer a{
+    color:white;
+}
+#footer a:hover{
+    background: none;
+    color: black;
+}
+.text-muted{
+    color: black !important;
 }
