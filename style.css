@@ -92,6 +92,15 @@ img{
     flex-wrap: wrap;
 }
 
+
+
+/* shop */
+
+#shop h5{
+
+    font-size: 2rem;
+}
+
 /* cards */
 body{
     margin-top:20px;
