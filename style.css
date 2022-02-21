@@ -8,7 +8,6 @@
 
 *{
     margin: 0px;
-  
     padding: 0px;
     box-sizing: border-box;
    
@@ -528,7 +527,6 @@ ul.list-style-none li {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24)
 }
 
-#contactus {}
 
 #contactus h3 {
     display: block;
@@ -625,6 +623,21 @@ fieldset {
     color: #888
 }
 
+
+/* social */
+
+#social .bi{
+    font-size: 2.3rem;
+}
+
+#social img{
+    opacity: 100%;
+}
+
+#social{
+    background-color: var(--primary-color);
+    padding-left: 4rem;
+}
 /* footer */
 #footer{
     background-color: var(--primary-color);
