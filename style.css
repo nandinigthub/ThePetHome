@@ -59,6 +59,14 @@ img{
     color: #fff !important;
 }
 
+
+/* photo */
+.photo{
+    height: 50px;
+    background: red;
+    background-image: url(.\images\header.jpg);
+}
+
 /* carousel */
 .carousel-inner h5{
     font-size: 3rem;
@@ -171,9 +179,13 @@ body{
 
 .product_item .cp_img img {
     transition: all 0.2s ease-in-out;
-    border-radius: 6px
+    border-radius: 6px;
+    /* width:100%; */
 }
 
+.product_item img{
+    width: 100%;
+}
 .product_item .cp_img .hover {
     display: none;
     text-align: center;
@@ -445,6 +457,8 @@ body{
 /* stores */
 #store img{
     opacity: 100%;
+   object-fit: cover;
+   align-items: center;
 }
 
 
@@ -636,7 +650,11 @@ fieldset {
 
 #social{
     background-color: var(--primary-color);
-    padding-left: 4rem;
+    grid-column: auto auto auto auto auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* padding-left: 4rem; */
 }
 /* footer */
 #footer{
@@ -652,3 +670,20 @@ fieldset {
 .text-muted{
     color: black !important;
 }
+
+
+/* .socio{
+    display: flex;
+    flex-direction: row;
+    background: red;
+    justify-content: center;
+    flex-wrap: wrap;
+     margin:0;
+    /* padding: 3rem; */
+} */
+
+.icon{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
