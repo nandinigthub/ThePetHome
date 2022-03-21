@@ -171,12 +171,13 @@ body{
 
 .product_item .cp_img img {
     transition: all 0.2s ease-in-out;
-    border-radius: 6px
-}
-
-.product_item img{
+    border-radius: 6px;
     width: 100%;
 }
+
+/* .product_item img{
+    width: 100%;
+} */
 
 .product_item .cp_img .hover {
     display: none;
