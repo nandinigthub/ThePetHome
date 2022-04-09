@@ -219,12 +219,22 @@ body{
 .product_item .cp_img img {
     transition: all 0.2s ease-in-out;
     border-radius: 6px;
+<<<<<<< HEAD
     /* width:100%; */
 }
 
 .product_item img{
     width: 100%;
 }
+=======
+    width: 100%;
+}
+
+/* .product_item img{
+    width: 100%;
+} */
+
+>>>>>>> 41e46dbc946297600f0184320c6af02c5f604141
 .product_item .cp_img .hover {
     display: none;
     text-align: center;
@@ -709,6 +719,7 @@ fieldset {
 .text-muted{
     color: black !important;
 }
+<<<<<<< HEAD
 
 
 .icon{
@@ -1077,3 +1088,5 @@ margin: 20px;
         }
     }
 
+=======
+>>>>>>> 41e46dbc946297600f0184320c6af02c5f604141
