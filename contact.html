@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ThePetHome</title>
+    <title>ThePetHome | Contact</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
@@ -30,7 +30,7 @@
 <body>
 
     <!-- navbar -->
-    <nav class="navbar navbar-light bg-warning fixed-top">
+    <nav class="navbar navbar-light   fixed-top">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar">
@@ -39,30 +39,34 @@
             <label for="exampleDataList" class="form-label"></label>
             <input class="form-control" list="datalistOptions" id="exampleDataList"
                 placeholder="What are you looking for?">
-            <datalist id="datalistOptions ">
+            <datalist id="datalistOptions">
                 <option value="Shop"></option>
                 <option value="About"></option>
                 <option value="FAQs"></option>
                 <option value="Contact"></option>
-                <option value="toyss"></option>
+                <option value="Toys"></option>
                 <option value="Gifts"></option>
                 <option value="Furniture"></option>
                 <option value="Accessories"></option>
                 <option value="Reviews"></option>
-            </datalist><button type="search" class="btn btn-light"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+            </datalist><button type="search" class="btn btn-light"><a href="filters.html"><svg xmlns="http://www.w3.org/2000/svg" width="40"
                     height="23" fill="currentColor" class="bi bi-search-heart" viewBox="0 0 16 16">
                     <path d="M6.5 4.482c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018Z" />
                     <path
                         d="M13 6.5a6.471 6.471 0 0 1-1.258 3.844c.04.03.078.062.115.098l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1.007 1.007 0 0 1-.1-.115h.002A6.5 6.5 0 1 1 13 6.5ZM6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11Z" />
-                </svg></button>
+                </svg></a></button>
             <a class="navbar-brand" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="25"
                     fill="currentColor" class="bi bi-house-heart" viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
                         d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.707L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.646a.5.5 0 0 0 .708-.707L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207l-5-5-5 5V13.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7.207Zm-5-.225C9.664 5.309 13.825 8.236 8 12 2.175 8.236 6.336 5.309 8 6.982Z" />
                 </svg>ThePetHome</a>
+            <button id="myBtn" style="background: none; border: 0;"> <a href="contact.html"><i
+                        class="bi bi-person"><span>Login</span></i></a></button>
+            <a href="cart.html"><i class=" cart bi bi-cart"><Span>0</Span></i></a>
+
             <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header bg-warning">
+                <div class="offcanvas-header  ">
                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><svg xmlns="http://www.w3.org/2000/svg"
                             width="30" height="25" fill="currentColor" class="bi bi-house-heart" viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
@@ -120,7 +124,7 @@
                 <fieldset> <input placeholder="Phone Number" type="tel" tabindex="3" required> </fieldset>
                 <fieldset> <textarea placeholder="Type your message here..." tabindex="5" required></textarea>
                 </fieldset>
-                <fieldset> <button class="btn btn-warning" type="button"><a href="#">Send Now</a></button> </fieldset>
+                <fieldset> <button class="btn  " type="button"> <a href="contact.html">Send Now</a></button> </fieldset>
             </form>
         </div>
     </section>
@@ -128,38 +132,26 @@
     <div id="social">
         <div class="container ">
             <div class="row">
-                <!-- <div class="d-flex justify-content-center col-md-2 col-lg-2 mb-4"> -->
-                    <div class="p-4 bd-highlight"><i class="bi bi-instagram"></i>
+                <div class="d-flex justify-content-center col-md-2 col-lg-2 mb-4">
+                    <div class=" bd-highlight" style="padding: 2rem; "><img src="https://img.icons8.com/ios-filled/44/000000/instagram-new--v1.png"/>
                     </div>
-               <!-- </div> -->
-                 <!-- <div class="d-flex justify-content-center col-md-2 col-lg-2 mb-4"> -->
+               </div>
+                 <div class="d-flex justify-content-center col-md-2 col-lg-2 mb-4">
                     <div class="p-4 bd-highlight"><i class="bi bi-facebook"></i>
                     </div>
-               <!-- </div> -->
-                 <!-- <div class="d-flex justify-content-center col-md-2 col-lg-2 mb-4"> -->
+               </div>
+                 <div class="d-flex justify-content-center col-md-2 col-lg-2 mb-4">
                     <div class="p-4 bd-highlight"><i class="bi bi-twitter"></i>
-                    </div>
-                <!-- </div> -->
-                 <!-- <div class="d-flex justify-content-center col-md-2 col-lg-2 mb-4"> -->
+                    </div></div>
+                 <div class="d-flex justify-content-center col-md-2 col-lg-2 mb-4">
                     <div class="p-4 bd-highlight"><i class="bi bi-youtube"></i>
-                    </div>
-                <!-- </div> -->
-                 <!-- <div class="d-flex justify-content-center col-md-2 col-lg-2 mb-4"> -->
+                    </div></div>
+                 <div class="d-flex justify-content-center col-md-2 col-lg-2 mb-4">
                     <div class="p-4 bd-highlight"><i class="bi bi-envelope-fill"></i>
-                    </div>
-                <!-- </div> -->
+                    </div></div>
                </div>
             </div>
         </div>
-   
-
-        <!-- <section class="socio">
-            <div class="icon"><i class="bi bi-instagram"></i></div>
-            <div class="icon"><i class="bi bi-facebook"></i></div>
-            <div class="icon"><i class="bi bi-twitter"></i></div>
-            <div class="icon"><i class="bi bi-youtube"></i></div>
-            <div class="icon"><i class="bi bi-envelope-fill"></i></div>
-        </section> -->
 
     <!-- review -->
 
@@ -199,9 +191,7 @@
                                                     src="https://bootdey.com/img/Content/avatar/avatar4.png"
                                                     class="rounded-circle" width="45" alt="user"></a>
                                         </div>
-                                        <a href="javascript:void(0)"
-                                            class="btn btn-lg btn-warning waves-effect waves-light">Writ Your 
-                                            Review</a>
+                                        <a href="#" class="btn btn-lg   waves-effect waves-light">Write Your Review</a>
                                     </div>
                                 </div>
                                 <div class="col-sm-12 col-lg-8 border-left">
@@ -352,7 +342,7 @@
                         <ul class="list-unstyled small text-muted">
                             <li class="mb-2">Designed and built with all the love in the world by
                                 the <a href="index.html">ThePetHome</a> with the help
-                                of <a href="#">our
+                                of  <a href="contact.html">our
                                     contributors</a>.</li>
                             <li class="mb-2">Code licensed <a href="#" target="_blank" rel="license noopener">MIT</a>,
                                 docs <a href="#" target="_blank" rel="license noopener">CC BY 3.0</a>.</li>
@@ -406,6 +396,27 @@
         </div>
     </div>
 
+      <!-- Theme changer -->
+
+  <div class="color-switcher">
+    <div class="switcher-btn">
+      <i class="bi bi-gear-fill"></i>
+    </div>
+    <h3>Select color</h3>
+    <div class="theme-buttons-container">
+      <span class="theme-buttons" data-color="#0061f2" style="background:#0061f2;"></span>
+      <!-- <span class="theme-buttons" data-color="#f39c12" style="background:#f39c12;"></span> -->
+      <span class="theme-buttons" data-color="#00702f" style="background:#00702f;"></span>
+      <span class="theme-buttons" data-color="#ea2027" style="background:#ea2027;"></span>
+      <span class="theme-buttons" data-color="#d10668" style="background:#d10668;"></span>
+      <span class="theme-buttons" data-color="#ff4757" style="background:#ff4757;"></span>
+      <!-- <span class="theme-buttons" data-color="#ffc312" style="background:#ffc312;"></span> -->
+      <span class="theme-buttons" data-color="#00a6cf" style="background:#00a6cf;"></span>
+      <!-- <span class="theme-buttons" data-color="#b700ff" style="background:#b700ff;"></span> -->
+    </div>
+  </div>
+
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -427,4 +438,5 @@
             return new bootstrap.Tooltip(tooltipTriggerEl);
         });
     </script>
+    <script src="script.js"></script>
 </body>
