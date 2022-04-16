@@ -13,7 +13,7 @@ let products = [
         name: "ThePetNest X BarkButler™ :Plush toy",
         tag: "ThePetNest X BarkButler™ :Plush toy5",
         img: "toy5",
-        category: "toys",
+        category: "toy",
         price: "Rs.1199",
         incart: 0
     },
@@ -21,7 +21,7 @@ let products = [
         name: "ThePetNest X BarkButler™ :Plush toy",
         tag: "ThePetNest X BarkButler™ :Plush toy4",
         img: "toy4",
-        category: "toys",
+        category: "toy",
         price: "Rs.1299",
         incart: 0
     },
@@ -29,7 +29,7 @@ let products = [
         name: "ThePetNest X BarkButler™ :Plush toy",
         tag: "ThePetNest X BarkButler™ :Plush toy3",
         img: "toy3",
-        category: "toys",
+        category: "toy",
         price: "Rs.1199",
         incart: 0
     },
@@ -37,7 +37,7 @@ let products = [
         name: "ThePetNest X BarkButler™ :Plush toy",
         tag: "ThePetNest X BarkButler™ :Plush toy2",
         img: "toy2",
-        category: "toys",
+        category: "toy",
         price: "Rs.999",
         incart: 0
     },
@@ -45,7 +45,7 @@ let products = [
         name: "ThePetNest X BarkButler™ :Plush toy",
         tag: "ThePetNest X BarkButler™ :Plush toy1",
         img: "toy1",
-        category: "toys",
+        category: "toy",
         price: "Rs.1399",
         incart: 0
     },
@@ -53,7 +53,7 @@ let products = [
         name: "ThePetNest X BarkButler™ :Plush gift",
         tag: "ThePetNest X BarkButler™ :Plush gift5",
         img: "gift5",
-        category: "gifts",
+        category: "gift",
         price: "Rs.1199",
         incart: 0
     },
@@ -61,7 +61,7 @@ let products = [
         name: "ThePetNest X BarkButler™ :Plush gift",
         tag: "ThePetNest X BarkButler™ :Plush gift4",
         img: "gift4",
-        category: "gifts",
+        category: "gift",
         price: "Rs.1299",
         incart: 0
     },
@@ -69,7 +69,7 @@ let products = [
         name: "ThePetNest X BarkButler™ :Plush gift",
         tag: "ThePetNest X BarkButler™ :Plush gift3",
         img: "gift3",
-        category: "gifts",
+        category: "gift",
         price: "Rs.1199",
         incart: 0
     },
@@ -77,7 +77,7 @@ let products = [
         name: "ThePetNest X BarkButler™ :Plush gift",
         tag: "ThePetNest X BarkButler™ :Plush gift2",
         img: "gift2",
-        category: "gifts",
+        category: "gift",
         price: "Rs.999",
         incart: 0
     },
@@ -85,7 +85,7 @@ let products = [
         name: "ThePetNest X BarkButler™ :Plush gift",
         tag: "ThePetNest X BarkButler™ :Plush gift1",
         img: "gift1",
-        category: "gifts",
+        category: "gift",
         price: "Rs.1399",
         incart: 0
     },
@@ -93,7 +93,7 @@ let products = [
         name: "ThePetNest X BarkButler™ :Plush Furniture",
         tag: "ThePetNest X BarkButler™ :Plush fur5",
         img: "fur5",
-        category: "furs",
+        category: "fur",
         price: "Rs.1199",
         incart: 0
     },
@@ -101,7 +101,7 @@ let products = [
         name: "ThePetNest X BarkButler™ :Plush Furniture",
         tag: "ThePetNest X BarkButler™ :Plush fur4",
         img: "fur4",
-        category: "furs",
+        category: "fur",
         price: "Rs.1299",
         incart: 0
     },
@@ -109,7 +109,7 @@ let products = [
         name: "ThePetNest X BarkButler™ :Plush Furniture",
         tag: "ThePetNest X BarkButler™ :Plush fur3",
         img: "fur3",
-        category: "furs",
+        category: "fur",
         price: "Rs.1199",
         incart: 0
     },
@@ -117,7 +117,7 @@ let products = [
         name: "ThePetNest X BarkButler™ :Plush Furniture",
         tag: "ThePetNest X BarkButler™ :Plush fur2",
         img: "fur2",
-        category: "furs",
+        category: "fur",
         price: "Rs.999",
         incart: 0
     },
@@ -125,7 +125,7 @@ let products = [
         name: "ThePetNest X BarkButler™ :Plush Furniture",
         tag: "ThePetNest X BarkButler™ :Plush fur1",
         img: "fur1",
-        category: "furs",
+        category: "fur",
         price: "Rs.1399",
         incart: 0
     },
@@ -133,7 +133,7 @@ let products = [
         name: "ThePetNest X BarkButler™ :Plush Accessories",
         tag: "ThePetNest X BarkButler™ :Plush acc5",
         img: "acc5",
-        category: "accs",
+        category: "acc",
         price: "Rs.1199",
         incart: 0
     },
@@ -141,7 +141,7 @@ let products = [
         name: "ThePetNest X BarkButler™ :Plush Accessories",
         tag: "ThePetNest X BarkButler™ :Plush acc4",
         img: "acc4",
-        category: "accs",
+        category: "acc",
         price: "Rs.1299",
         incart: 0
     },
@@ -149,7 +149,7 @@ let products = [
         name: "ThePetNest X BarkButler™ :Plush Accessories",
         tag: "ThePetNest X BarkButler™ :Plush acc3",
         img: "acc3",
-        category: "accs",
+        category: "acc",
         price: "Rs.1199",
         incart: 0
     },
@@ -157,7 +157,7 @@ let products = [
         name: "ThePetNest X BarkButler™ :Plush Accessories",
         tag: "ThePetNest X BarkButler™ :Plush acc2",
         img: "acc2",
-        category: "accs",
+        category: "acc",
         price: "Rs.999",
         incart: 0
     },
@@ -165,7 +165,7 @@ let products = [
         name: "ThePetNest X BarkButler™ :Plush Accessories",
         tag: "ThePetNest X BarkButler™ :Plush acc1",
         img: "acc1",
-        category: "accs",
+        category: "acc",
         price: "Rs.1399",
         incart: 0
     },
@@ -232,21 +232,6 @@ function setItem(products) {
 }
 
 
-// total cost of products in cart
-function totalCost(products) {
-    let cartCost = localStorage.getItem('totalCost');
-    console.log('cartCost is', cartCost);
-    
-    if (cartCost != null) {
-        cartCost = parseInt(totalCost);
-        localStorage.setItem('totalCost', cartCost + products*price);
-    }
-    else {
-        localStorage.setItem('totalCost', products.price);
-    }
-}
-
-
 // display items in  cart.html
 function displayCart() {
     let cartItems = localStorage.getItem('productInCart');
@@ -268,54 +253,12 @@ function displayCart() {
                 <div class ="quantity">
                 <span>${item.incart}</span>
                 </div>
-                <div class = "total">
-                ${item.incart = item.price}
-                </div>
+              
             </div>`;
             
         });
     }
     
-}
-
-// for (let i of products.data){
-//     //create card
-//     let card = document.createElement("div");
-//     //category
-//     card.classList.add("card" , i.category);
-//     //img div
-//     let imgContainer = document.createElement("div");
-//     //img tag
-//     let image = document.createElement("img");
-//     image.setAttribute("src", i.image);
-//     imgContainer.classList.appendChild(image);
-//     card.appendChild(imgContainer);
-//     //container
-//     let container = document.createElement("div")
-//     container.classList.add("container ")
-// }
-
-function removeItemFromCart(product){
-    for (var i in carts){
-        if (carts[i].name == name){
-            carts[i].count -- ;
-            if (carts[i].count === 0){
-                carts.splice(i,1);
-            }
-            break;
-        }
-    }
-    saveCart();
-}
-
-function removeItemFromCartAll(product){
-    for (var i in carts){
-        if (carts[i].name == name){
-                carts.splice(i,1);
-            break;
-        }
-    }
-    saveCart();
 }
 
 onLoadCartNumbers();
@@ -417,7 +360,7 @@ const validate = () => {
     const emailVal = email.value.trim();
     const numberVal = number.value.trim();
     const passwordVal = password.value.trim();
-    const cpasswordVal = cpassword.value.trim();
+    // const cpasswordVal = cpassword.value.trim();
 
 
     // validate username
@@ -460,16 +403,16 @@ const validate = () => {
     else {
         setSucessMsg(password);
     }
-    //validate confirm password
-    if (cpasswordVal === "") {
-        setErrorMsg(cpassword, "confirm Password can not be null");
-    }
-    else if (passwordVal != cpasswordVal) {
-        setErrorMsg(cpassword, "Password not match ");
-    }
-    else {
-        setSucessMsg(cpassword);
-    }
+    // //validate confirm password
+    // if (cpasswordVal === "") {
+    //     setErrorMsg(cpassword, "confirm Password can not be null");
+    // }
+    // else if (passwordVal != cpasswordVal) {
+    //     setErrorMsg(cpassword, "Password not match ");
+    // }
+    // else {
+    //     setSucessMsg(cpassword);
+    // }
 
 
     successMsg(unameVal);
@@ -485,3 +428,4 @@ function setSucessMsg(input) {
     const formControl = input.parentElement;
     formControl.className = "form-control success";
 }
+
